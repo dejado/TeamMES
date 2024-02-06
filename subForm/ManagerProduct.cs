@@ -75,7 +75,7 @@ namespace subForm
         private void button6_Click(object sender, EventArgs e)
         {
             // MySQL 연결 문자열 설정
-            string connectionString = "Server=localhost;Database=managerproduct;User Id=root;Password=1234;";
+            string connectionString = "Server=localhost;Database=managerproduct;User Id=newuser1;Password=dlawlsdn01;";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
